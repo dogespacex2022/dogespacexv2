@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "dst",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "wad",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/protocols/bep/dogesxv4/DOGESX.sol": "IWBNB"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/protocols/bep/dogesxv4/DOGESX.sol": {
+			"keccak256": "0x62f7e6652336168321b53cb27317bd173f55fae7bfc101d8beeac1411608e81a",
+			"license": "No License (None)",
+			"urls": [
+				"bzz-raw://b4c8f0eea320549ed3c30a78cc151a13bf5111c832f61c5af543614e568390c6",
+				"dweb:/ipfs/QmXkRfm72xEwq13RMEpNK8scvaSW5GFbmdTAQmE3CF6qmy"
+			]
+		}
+	},
+	"version": 1
+}
